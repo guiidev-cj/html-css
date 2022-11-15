@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+
+}
+
+header {
+    background-color: darkgreen;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+header p {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+header > nav {
+    text-align: center;
+    background-color: brown;
+}
+
+header a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover {
+    background-color: azure;
+    color: brown;
+    border-radius: 10px;
+}
+
+
+main {
+    background-color: white;
+    max-width: 800px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+main h2 {
+    background-image: linear-gradient(to right, aquamarine, transparent);
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+main img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.img-pequena{
+    max-width: 300px;
+}
+
+footer {
+    background-color: dimgray;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-top: 2px solid black;
+}
